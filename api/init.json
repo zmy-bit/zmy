@@ -1,0 +1,193 @@
+{
+  "homeInfo": {
+    "title": "首页",
+    "href": "page/home.html"
+  },
+  "logoInfo": {
+    "title": "权限管理系统",
+    "image": "images/logo.png",
+    "href": ""
+  },
+  "menuInfo": [
+    {
+      "title": "常规管理",
+      "icon": "fa fa-address-book",
+      "href": "/page/home.html",
+      "target": "_self",
+      "child": [
+        {
+          "title": "首页",
+          "href": "page/home.html",
+          "icon": "fa fa-home",
+          "target": "_self"
+        },
+		{
+		  "title": "用户管理",
+		  "href": "",
+		  "icon": "fa fa-group",
+		  "target": "_self",
+		  "child": [
+		  {
+		    "title": "用户信息维护",
+		    "href": "1.html",
+		    "icon": "fa fa-plus-square-o",
+		    "target": "_self",
+			"child":[
+				{
+					"title": "添加用户",
+					"href": "1.html",
+					"icon": "fa fa-plus-square-o",
+					"target": "_self"
+			 },
+				{
+					"title": "修改用户信息",
+					"href": "1.1.html",
+					"icon": "fa fa-plus-square-o",
+					"target": "_self"
+			 },
+			 {
+			 		"title": "删除用户",
+			 		"href": "1.2.html",
+			 		"icon": "fa fa-plus-square-o",
+			 		"target": "_self"
+			 },
+			  {
+			 			 		"title": "查询用户",
+			 			 		"href": "1.3.html",
+			 			 		"icon": "fa fa-plus-square-o",
+			 			 		"target": "_self"
+			 	 }
+			]
+		  }, {
+		    "title": "用户状态管理",
+		    "href": "1.4.html",
+		    "icon": "fa fa-search",
+		    "target": "_self"
+		  }
+		]
+		},
+        {
+          "title": "角色管理",
+          "href": "",
+          "icon": "fa fa-cog",
+          "target": "_self",
+          "child": [
+          {
+            "title": "角色创建与配置",
+            "href": "2.html",
+            "icon": "fa fa-plus-square-o",
+            "target": "_self"
+          }, {
+            "title": "角色关联用户",
+            "href": "2.1.html",
+            "icon": "fa fa-search",
+            "target": "_self"
+          }
+        ]
+        },
+        {
+          "title": "权限项管理",
+          "href": "",
+          "icon": "fa fa-institution",
+          "target": "_self",
+          "child": [
+            {
+              "title": "权限项定义",
+              "href": "3.html",
+              "icon": "fa fa-plus-square-o",
+              "target": "_self"
+            }, 
+			{
+			  "title": "权限统计",
+			  "href": "lll.html",
+			  "icon": "fa fa-plus-square-o",
+			  "target": "_self"
+			}, 
+			{
+              "title": "权限项状态控制",
+              "href": "3.1.html",
+              "icon": "fa fa-plus-circle",
+              "target": "_self"
+            } 
+          ]
+        },
+        {
+          "title": "用户-角色-权限关联",
+          "href": "",
+          "icon": "fa fa-male",
+          "target": "_self",
+          "child": [
+            {
+              "title": "关联关系查询",
+              "href": "4.html",
+              "icon": "fa fa-plus-circle",
+              "target": "_self"
+            }, {
+              "title": "关联关系批量调整",
+              "href": "4.1.html",
+              "icon": "fa fa-search-plus",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "操作日志",
+          "href": "",
+          "icon": "fa fa-trophy",
+          "target": "_self",
+          "child": [
+            {
+              "title": "日志记录",
+              "href": "5.html",
+              "icon": "fa fa-plus-square-o",
+              "target": "_self"
+            }, {
+              "title": "日志查询",
+              "href": "5.1.html",
+              "icon": "fa fa-search",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "系统安全",
+          "href": "",
+          "icon": "fa fa-paw",
+          "target": "_self",
+          "child": [
+            {
+              "title":"登录安全控制",
+              "href": "6.html",
+              "icon": "fa fa-key",
+              "target": "_self"
+            }, {
+              "title": "会话管理",
+              "href": "6.1.html",
+              "icon": "fa fa-search-plus",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "系统配置",
+          "href": "",
+          "icon": "fa fa-eye",
+          "target": "_self",
+          "child": [
+            {
+              "title": "基础参数控制",
+              "href": "7.html",
+              "icon": "fa fa-plus-square-o",
+              "target": "_self"
+            }, {
+              "title": "模块启用控制",
+              "href": "7.1.html",
+              "icon": "fa fa-search",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
